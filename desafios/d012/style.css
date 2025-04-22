@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+}
+
+/* cabeça */
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+header a, footer a {
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+/* corpo */
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 30px;
+}
+
+section.normal {
+    background-color: white;
+}
+
+section.imagem {
+    background-color: rgb(39, 39, 39);
+    color: white;
+
+    background-image: url('imagens/background001.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.imagem > p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.39);
+}
+
+/*
+section.imagem {
+    background-color: black;
+    color: white;
+
+    background-image: url('imagens/background002.jp');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+*/
+
+/* footer */
+
+footer > p {
+    padding: 0px;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
